@@ -1,0 +1,32 @@
+/* 
+  Localiazable.strings
+  NoCloud
+
+  Created by qiang xu on 2020/11/2.
+  
+*/
+"Sync To"="同步到";
+"OK"="好的";
+"Warning"="温馨提醒";
+"Confirm"="确认";
+"Cancel"="取消";
+"Failed"="操作失败";
+"Remove reqeust send successful"="删除请求已经提交";
+"Deleting takes a certain amount of time, please check the album later to confirm whether the removal operation is successful!"="删除需要耗费一定时间, 请稍后查看相册, 确认移除操作是否成功!";
+"There are no resources that can be deleted, please check if the backup is exist"="没有发现可以删除的资源, 请检查备份是否正常";
+"Unfortunately 🤷‍♀️, there is no official Api to completely delete resources, only resources can be moved into \"recently deleted\", Complete deletion method: Unlock iPhone-Open \"Photos\"-\"Photo Album\"-\"Recently Deleted\"-\"Select\"-\"Delete All\".The files moved into \"recently deleted\" must meet the following conditions:\n1. The files corresponding to iCloud exist locally.\n2. The local file size>%dkb.\nAlthough the above prevention of accidental deletion has been done, it is still recommended that you confirm the correctness of the backup before completely deleting it."="非常无奈🤷‍♀️，官方没有Api可以彻底删除资源，只能将资源移入\"最近删除\",\
+彻底删除方法: 解锁iPhone - 打开\"照片\" - \"相簿\" - \"最近删除\" - \"选择\" - \"全部删除\".\
+移入\"最近删除\"的文件要求满足如下条件:
+1. iCloud对应的文件在本地存在
+2. 本地存在文件大小>%dkb
+虽然做了如上预防误删除操作， 但仍建议您彻底删除前先确定下备份的正确性。";
+"Sync images"="同步图片";
+"Remove synced images"="移除已同步图片";
+"Synchronizing, please be patient"="同步中, 速度受网络影响, 请耐心等待, 出错请多尝试几次"; 
+"Sync has finished!!"="同步已结束!!";
+"Total: %ld Success: %ld Failure: %ld"="总共:%ld 成功:%ld 失败:%ld";
+"Total: %ld Success: %ld"="总共:%ld 成功:%ld";
+"About NoCloud"="关于NoCloud";
+"Pick folder to save images"="单击选择同步文件夹";
+"Please pick folder to save images"="文件夹不能为空";
+"No authority to read albums"="无访问相册权限";
