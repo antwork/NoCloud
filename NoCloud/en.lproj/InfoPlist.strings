@@ -6,3 +6,5 @@
   
 */
 "CFBundleDisplayName"="No Cloud";
+"NSDocumentsFolderUsageDescription"="Request folder permission to store synchronized photos";
+"NSPhotoLibraryUsageDescription"="Request photo permission to synchronize photos to folders";

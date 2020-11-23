@@ -19,14 +19,10 @@
 		D525FD0125494EB700064EE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D525FD0025494EB700064EE4 /* Assets.xcassets */; };
 		D525FD0425494EB700064EE4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D525FD0225494EB700064EE4 /* MainMenu.xib */; };
 		D52DE157254A5DA800683A89 /* NCError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52DE156254A5DA800683A89 /* NCError.swift */; };
-		D53FF0A3255D83540050C2EF /* about.html in Resources */ = {isa = PBXBuildFile; fileRef = D53FF0A5255D83540050C2EF /* about.html */; };
 		D56D0B74254FFFD300A5EDE3 /* URL+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56D0B73254FFFD300A5EDE3 /* URL+Ext.swift */; };
 		D56D0B7B2550045000A5EDE3 /* NSAlert+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56D0B7A2550045000A5EDE3 /* NSAlert+Ext.swift */; };
 		D56D0B8025500E7B00A5EDE3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D56D0B8225500E7B00A5EDE3 /* Localizable.strings */; };
 		D56D0B8B2550102300A5EDE3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D56D0B8D2550102300A5EDE3 /* InfoPlist.strings */; };
-		D56D0B922550569300A5EDE3 /* WindowManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56D0B912550569300A5EDE3 /* WindowManager.swift */; };
-		D56D0B9625505A3700A5EDE3 /* AboutMeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56D0B9425505A3700A5EDE3 /* AboutMeController.swift */; };
-		D56D0B9725505A3700A5EDE3 /* AboutMeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D56D0B9525505A3700A5EDE3 /* AboutMeController.xib */; };
 		D56D0BA725528AB000A5EDE3 /* FetchSlowMo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56D0BA625528AB000A5EDE3 /* FetchSlowMo.swift */; };
 		D592B31B254A9E8F00F6FACB /* NSImage+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D592B31A254A9E8F00F6FACB /* NSImage+Ext.swift */; };
 		D592B31F254A9F7900F6FACB /* PHAsset+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D592B31E254A9F7900F6FACB /* PHAsset+Ext.swift */; };
@@ -54,10 +50,6 @@
 		D525FD0525494EB700064EE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D525FD0625494EB700064EE4 /* NoCloud.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NoCloud.entitlements; sourceTree = "<group>"; };
 		D52DE156254A5DA800683A89 /* NCError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NCError.swift; sourceTree = "<group>"; };
-		D53FF0A4255D83540050C2EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/about.html; sourceTree = "<group>"; };
-		D53FF0A7255D83550050C2EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = en; path = en.lproj/about.html; sourceTree = "<group>"; };
-		D53FF0A9255D83580050C2EF /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = "zh-Hans"; path = "zh-Hans.lproj/about.html"; sourceTree = "<group>"; };
-		D53FF0AA255D835A0050C2EF /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = "zh-Hant"; path = "zh-Hant.lproj/about.html"; sourceTree = "<group>"; };
 		D53FF0AD255D870E0050C2EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/MainMenu.strings; sourceTree = "<group>"; };
 		D53FF0AF255D870F0050C2EF /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/MainMenu.strings"; sourceTree = "<group>"; };
 		D53FF0B1255D87100050C2EF /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/MainMenu.strings"; sourceTree = "<group>"; };
@@ -67,9 +59,6 @@
 		D56D0B8425500E7D00A5EDE3 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		D56D0B8625500E7E00A5EDE3 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		D56D0B8C2550102300A5EDE3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		D56D0B912550569300A5EDE3 /* WindowManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowManager.swift; sourceTree = "<group>"; };
-		D56D0B9425505A3700A5EDE3 /* AboutMeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeController.swift; sourceTree = "<group>"; };
-		D56D0B9525505A3700A5EDE3 /* AboutMeController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AboutMeController.xib; sourceTree = "<group>"; };
 		D56D0BA625528AB000A5EDE3 /* FetchSlowMo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchSlowMo.swift; sourceTree = "<group>"; };
 		D592B31A254A9E8F00F6FACB /* NSImage+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSImage+Ext.swift"; sourceTree = "<group>"; };
 		D592B31E254A9F7900F6FACB /* PHAsset+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PHAsset+Ext.swift"; sourceTree = "<group>"; };
@@ -79,6 +68,8 @@
 		D592B32C254AAD1100F6FACB /* FetchCommon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchCommon.swift; sourceTree = "<group>"; };
 		D592B331254AFC5300F6FACB /* FetchLiveData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchLiveData.swift; sourceTree = "<group>"; };
 		D592B388254B03E000F6FACB /* FetchAlbum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchAlbum.swift; sourceTree = "<group>"; };
+		D5DF0884256C0C7800230BF1 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		D5DF0885256C0C7C00230BF1 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,8 +100,6 @@
 				D50F82FE254C6CB9006A064B /* SyncMainView.swift */,
 				D50F8301254C6CC2006A064B /* SyncMainView.xib */,
 				D50F8307254C720E006A064B /* NibLoadable.swift */,
-				D56D0B9425505A3700A5EDE3 /* AboutMeController.swift */,
-				D56D0B9525505A3700A5EDE3 /* AboutMeController.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -136,7 +125,6 @@
 			isa = PBXGroup;
 			children = (
 				D525FCFE25494EB600064EE4 /* AppDelegate.swift */,
-				D5CA490F254D6ECB00FD33DA /* Vendors */,
 				D50F82F2254C696F006A064B /* Views */,
 				D52DE150254A5CD500683A89 /* Public */,
 				D50F8304254C6E4F006A064B /* RootHelper.swift */,
@@ -144,7 +132,6 @@
 				D525FD0025494EB700064EE4 /* Assets.xcassets */,
 				D525FD0225494EB700064EE4 /* MainMenu.xib */,
 				D525FD0525494EB700064EE4 /* Info.plist */,
-				D53FF0A5255D83540050C2EF /* about.html */,
 				D56D0B8D2550102300A5EDE3 /* InfoPlist.strings */,
 				D56D0B8225500E7B00A5EDE3 /* Localizable.strings */,
 				D525FD0625494EB700064EE4 /* NoCloud.entitlements */,
@@ -185,14 +172,6 @@
 				D592B388254B03E000F6FACB /* FetchAlbum.swift */,
 			);
 			path = Fetch;
-			sourceTree = "<group>";
-		};
-		D5CA490F254D6ECB00FD33DA /* Vendors */ = {
-			isa = PBXGroup;
-			children = (
-				D56D0B912550569300A5EDE3 /* WindowManager.swift */,
-			);
-			path = Vendors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,12 +233,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D56D0B9725505A3700A5EDE3 /* AboutMeController.xib in Resources */,
 				D525FD0125494EB700064EE4 /* Assets.xcassets in Resources */,
 				D56D0B8B2550102300A5EDE3 /* InfoPlist.strings in Resources */,
 				D525FD0425494EB700064EE4 /* MainMenu.xib in Resources */,
 				D50F8302254C6CC2006A064B /* SyncMainView.xib in Resources */,
-				D53FF0A3255D83540050C2EF /* about.html in Resources */,
 				D56D0B8025500E7B00A5EDE3 /* Localizable.strings in Resources */,
 				D50F82F4254C698B006A064B /* SyncProgressView.xib in Resources */,
 			);
@@ -274,11 +251,9 @@
 			files = (
 				D50F82FF254C6CB9006A064B /* SyncMainView.swift in Sources */,
 				D592B389254B03E000F6FACB /* FetchAlbum.swift in Sources */,
-				D56D0B9625505A3700A5EDE3 /* AboutMeController.swift in Sources */,
 				D592B326254AA12100F6FACB /* FetchImage.swift in Sources */,
 				D50F8308254C720E006A064B /* NibLoadable.swift in Sources */,
 				D50F82FB254C6A96006A064B /* SyncProgressView.swift in Sources */,
-				D56D0B922550569300A5EDE3 /* WindowManager.swift in Sources */,
 				D592B31F254A9F7900F6FACB /* PHAsset+Ext.swift in Sources */,
 				D592B32D254AAD1100F6FACB /* FetchCommon.swift in Sources */,
 				D56D0B74254FFFD300A5EDE3 /* URL+Ext.swift in Sources */,
@@ -309,17 +284,6 @@
 			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
-		D53FF0A5255D83540050C2EF /* about.html */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D53FF0A4255D83540050C2EF /* Base */,
-				D53FF0A7255D83550050C2EF /* en */,
-				D53FF0A9255D83580050C2EF /* zh-Hans */,
-				D53FF0AA255D835A0050C2EF /* zh-Hant */,
-			);
-			name = about.html;
-			sourceTree = "<group>";
-		};
 		D56D0B8225500E7B00A5EDE3 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -334,6 +298,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				D56D0B8C2550102300A5EDE3 /* en */,
+				D5DF0884256C0C7800230BF1 /* zh-Hans */,
+				D5DF0885256C0C7C00230BF1 /* zh-Hant */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -467,6 +433,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 2;
 				INFOPLIST_FILE = NoCloud/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -487,6 +454,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 2;
 				INFOPLIST_FILE = NoCloud/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

@@ -200,20 +200,21 @@ class RootHelper {
             return
         }
         
-        updateInfo("开始同步..")
+        updateInfo(NSLocalizedString("Start syncing..", comment: ""))
         syncHelper = SyncHelper(folder: url)
         syncHelper?.statesBlock = { [weak self] (state) in
             switch state {
             case .info(let message):
                 self?.updateInfo("\(message)")
             case .error(let error):
-                self?.updateInfo("\(error)")
+                self?.showFinish(title: NSLocalizedString("Warning", comment: ""), message: error, action: nil)
+                self?.hideMain(hidden: false)
             case .progress(let success, let failed, let total):
                 self?.progressView.updateProgress(success: success, failed: failed, total: total)
             case .finish(let success, let failed, let total):
-                let message = "总共:\(total) 成功:\(success) 失败:\(failed)"
+                let message = "\(NSLocalizedString("Total", comment: "")):\(total) \(NSLocalizedString("Success", comment: "")):\(success) \(NSLocalizedString("fail", comment: "")):\(failed)"
                 DispatchQueue.main.async {
-                    self?.showFinish(title: "同步已完成", message: message, action: {
+                    self?.showFinish(title: NSLocalizedString("Sync completed", comment: ""), message: message, action: {
                         self?.hideMain(hidden: false)
                     })
                 }

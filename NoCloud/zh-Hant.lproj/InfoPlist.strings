@@ -6,3 +6,5 @@
   
 */
 "CFBundleDisplayName"="noCloud";
+"NSDocumentsFolderUsageDescription"="請求文件夾權限用來存儲同步的照片";
+"NSPhotoLibraryUsageDescription"="請求照片權限用於同步照片到本地";

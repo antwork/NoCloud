@@ -30,3 +30,9 @@
 "Pick folder to save images"="单击选择同步文件夹";
 "Please pick folder to save images"="文件夹不能为空";
 "No authority to read albums"="无访问相册权限";
+"No photo found, please check whether the photo permission is enabled"="未找到照片, 请查看是否开启照片权限";
+"Sync completed"="同步已完成";
+"Total"="总共";
+"Success"="成功";
+"Fail"="失败";
+"Start syncing.."="开始同步..";

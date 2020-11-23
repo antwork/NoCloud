@@ -19,21 +19,21 @@
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>LSApplicationCategoryType</key>
 	<string>public.app-category.utilities</string>
 	<key>LSMinimumSystemVersion</key>
 	<string>$(MACOSX_DEPLOYMENT_TARGET)</string>
-	<key>NSMainNibFile</key>
-	<string>MainMenu</string>
-	<key>NSPrincipalClass</key>
-	<string>NSApplication</string>
 	<key>NSDocumentsFolderUsageDescription</key>
 	<string>请求文件夹权限用来存储同步的照片</string>
-	<key>NSPhotoLibraryUsageDescription</key>
-	<string>请求照片权限用于同步照片到本地</string>
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2020–2020 XuQiang.
 保留一切权利。</string>
+	<key>NSMainNibFile</key>
+	<string>MainMenu</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>请求照片权限用于同步照片到本地</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
 </dict>
 </plist>

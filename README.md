@@ -1,4 +1,7 @@
 ## No Cloud
+* [英文版](/README_EN.md)
+* [中文繁体版](/README_TRAN.md)
+
 ### No Cloud是什么？
 No Cloud是一款管理iCloud图片的App。	
 支持同步iCloud图片到磁盘和批量删除iCloud图片。

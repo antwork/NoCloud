@@ -1,33 +1,31 @@
-/* 
-  Localiazable.strings
-  NoCloud
-
-  Created by qiang xu on 2020/11/2.
-  
-*/
 "Sync To"="同步到";
 "OK"="好的";
-"Warning"="温馨提醒";
-"Confirm"="确认";
+"Warning"="溫馨提醒";
+"Confirm"="確認";
 "Cancel"="取消";
-"Failed"="操作失败";
-"Remove reqeust send successful"="删除请求已经提交";
-"Deleting takes a certain amount of time, please check the album later to confirm whether the removal operation is successful!"="删除需要耗费一定时间, 请稍后查看相册, 确认移除操作是否成功!";
-"There are no resources that can be deleted, please check if the backup is exist"="没有发现可以删除的资源, 请检查备份是否正常";
-"Unfortunately 🤷‍♀️, there is no official Api to completely delete resources, only resources can be moved into \"recently deleted\", Complete deletion method: Unlock iPhone-Open \"Photos\"-\"Photo Album\"-\"Recently Deleted\"-\"Select\"-\"Delete All\".The files moved into \"recently deleted\" must meet the following conditions:\n1. The files corresponding to iCloud exist locally.\n2. The local file size>%dkb.\nAlthough the above prevention of accidental deletion has been done, it is still recommended that you confirm the correctness of the backup before completely deleting it."="非常无奈🤷‍♀️，官方没有Api可以彻底删除资源，只能将资源移入\"最近删除\",\
-彻底删除方法: 解锁iPhone - 打开\"照片\" - \"相簿\" - \"最近删除\" - \"选择\" - \"全部删除\".\
-移入\"最近删除\"的文件要求满足如下条件:
-1. iCloud对应的文件在本地存在
+"Failed"="操作失敗";
+"Remove reqeust send successful"="刪除請求已經提交";
+"Deleting takes a certain amount of time, please check the album later to confirm whether the removal operation is successful!"="刪除需要耗費一定時間, 請稍後查看相冊, 確認移除操作是否成功!";
+"There are no resources that can be deleted, please check if the backup is exist"="沒有發現可以刪除的資源, 請檢查備份是否正常";
+"Unfortunately 🤷‍♀️, there is no official Api to completely delete resources, only resources can be moved into \"recently deleted\", Complete deletion method: Unlock iPhone-Open \"Photos\"-\"Photo Album\"- \"Recently Deleted\"-\"Select\"-\"Delete All\".The files moved into \"recently deleted\" must meet the following conditions:\n1. The files corresponding to iCloud exist locally.\n2. The local file size>%dkb.\nAlthough the above prevention of accidental deletion has been done, it is still recommended that you confirm the correctness of the backup before completely deleting it."="非常無奈🤷‍♀️，官方沒有Api可以徹底刪除資源，只能將資源移入\"最近刪除\",\
+徹底刪除方法: 解鎖iPhone - 打開\"照片\" - \"相簿\" - \"最近刪除\" - \"選擇\" - \"全部刪除\".\
+移入\"最近刪除\"的文件要求滿足如下條件:
+1. iCloud對應的文件在本地存在
 2. 本地存在文件大小>%dkb
-虽然做了如上预防误删除操作， 但仍建议您彻底删除前先确定下备份的正确性。";
-"Sync images"="同步图片";
-"Remove synced images"="移除已同步图片";
-"Synchronizing, please be patient"="同步中, 速度受网络影响, 请耐心等待, 出错请多尝试几次";
-"Sync has finished!!"="同步已结束!!";
-"Total: %ld Success: %ld Failure: %ld"="总共:%ld 成功:%ld 失败:%ld";
-"Total: %ld Success: %ld"="总共:%ld 成功:%ld";
-"About NoCloud"="关于NoCloud";
-"Pick folder to save images"="单击选择同步文件夹";
-"Please pick folder to save images"="文件夹不能为空";
-"No authority to read albums"="无访问相册权限";
-
+雖然做瞭如上預防誤刪除操作， 但仍建議您徹底刪除前先確定下備份的正確性。 ";
+"Sync images"="同步圖片";
+"Remove synced images"="移除已同步圖片";
+"Synchronizing, please be patient"="同步中, 速度受網絡影響, 請耐心等待, 出錯請多嘗試幾次";
+"Sync has finished!!"="同步已結束!!";
+"Total: %ld Success: %ld Failure: %ld"="總共:%ld 成功:%ld 失敗:%ld";
+"Total: %ld Success: %ld"="總共:%ld 成功:%ld";
+"About NoCloud"="關於NoCloud";
+"Pick folder to save images"="單擊選擇同步文件夾";
+"Please pick folder to save images"="文件夾不能為空";
+"No authority to read albums"="無訪問相冊權限";
+"No photo found, please check whether the photo permission is enabled"="未找到照片, 請查看是否開啟照片權限";
+"Sync completed"="同步已完成";
+"Total"="總共";
+"Success"="成功";
+"Fail"="失敗";
+"Start syncing.."="開始同步..";

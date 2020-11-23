@@ -31,11 +31,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     }
     
     @IBAction func showAboutMe(_ sender: Any) {
-        let windowController = AboutMeController(windowNibName: "AboutMeController")
-        windowController.window?.center()
-        windowController.showWindow(nil)
-        
-        WindowManager.shared.push(windowController)
+        guard let url = URL(string: "https://github.com/antwork/NoCloud") else { return }
+        NSWorkspace.shared.open(url)
     }
     
     func applicationShouldTerminateAfterLastWindowClosed(_ sender: NSApplication) -> Bool {

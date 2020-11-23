@@ -115,7 +115,7 @@ class SyncHelper: NSObject {
         syncItems.append(contentsOf: syncVideoItems)
         
         if syncItems.count == 0 {
-            statesBlock?(.error("未找到照片, 请查看是否开启照片权限"))
+            statesBlock?(.error(NSLocalizedString("No photo found, please check whether the photo permission is enabled", comment: "")))
             return
         }
         self.allSyncItems = syncItems
@@ -151,7 +151,7 @@ class SyncHelper: NSObject {
             var continueProcess = true
             // photoLive的导出视频和图片
             if asset.mediaType == .image, asset.mediaSubtypes.contains(.photoLive) {
-                let url =  asset.fileURL(in: folderUrl.safeAppendingPathComponent(name: syncItem.albumName), ext: "png")
+                let url = asset.fileURL(in: folderUrl.safeAppendingPathComponent(name: syncItem.albumName), ext: "png")
                 if FileManager.default.fileExists(atPath: url.path, isDirectory: &isDir) == false || isDir.boolValue == true {
                     continueProcess = false
                 }
@@ -275,9 +275,9 @@ class SyncHelper: NSObject {
         syncIfNeed()
     }
     
-    private func fetchPNG(asset:PHAsset, targetFolder: URL, complete: @escaping (Result<PHAsset.Result, Error>)->Void) {
+    private func fetchPNG(asset:PHAsset, ext: String? = nil, targetFolder: URL, complete: @escaping (Result<PHAsset.Result, Error>)->Void) {
         do {
-            try asset.fetchImage(folder: targetFolder) { [weak self] (progress, error, stop, infos) in
+            try asset.fetchImage(folder: targetFolder, ext: ext) { [weak self] (progress, error, stop, infos) in
                 self?.handleProgress(progress, path: targetFolder.path, error: error, stop: stop, infos: infos)
             } completion: { (result) in
                 complete(.success(result))
@@ -308,12 +308,11 @@ class SyncHelper: NSObject {
         case .image:
             if asset.mediaSubtypes.contains(.photoLive) {
                 // 实况图片,先获取图片, 然后尝试获取视频
-                fetchPNG(asset: asset, targetFolder: targetFolder) { [weak self] (result) in
+                fetchPNG(asset: asset, ext: "png", targetFolder: targetFolder) { [weak self] (result) in
                     self?.fetchMov(asset: asset, targetFolder: targetFolder, complete: { (result) in
                         switch result {
                         case .success(let resultAsset):
                             self?.handleResult(resultAsset)
-                            break
                         case .failure(_):
                             // TODO: 处理错误
                             self?.failCurrentAndSyncNextIfNeed()

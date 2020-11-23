@@ -11,12 +11,12 @@ import Photos
 extension PHAsset {
     
     func fetchImage(folder: URL,
+                    ext: String? = nil,
                     progress: FetchProgressBlock? = nil,
                     completion: ((PHAsset.Result) -> Void)? = nil) throws {
-        let url = self.fileURL(in: folder)
+        let url = self.fileURL(in: folder, ext: ext)
         var isDir: ObjCBool = false
         let id = localIdentifier
-        
         // 已存在
         if FileManager.default.fileExists(atPath: url.path, isDirectory: &isDir),
            isDir.boolValue == false {
